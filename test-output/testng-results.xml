@@ -2,17 +2,17 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-07-31T18:03:54Z" name="Default suite" finished-at="2019-07-31T18:03:54Z" duration-ms="16">
+  <suite started-at="2019-08-01T03:49:29Z" name="Default suite" finished-at="2019-08-01T03:49:29Z" duration-ms="30">
     <groups>
     </groups>
-    <test started-at="2019-07-31T18:03:54Z" name="Default test" finished-at="2019-07-31T18:03:54Z" duration-ms="16">
+    <test started-at="2019-08-01T03:49:29Z" name="Default test" finished-at="2019-08-01T03:49:29Z" duration-ms="30">
       <class name="Test.ValidateHomepageTest">
-        <test-method signature="AddingContact()[pri:0, instance:Test.ValidateHomepageTest@3b6ddd1d]" started-at="2019-07-31T18:03:54Z" name="AddingContact" finished-at="2019-07-31T18:03:54Z" duration-ms="0" status="FAIL">
+        <test-method signature="AddingContact()[pri:0, instance:Test.ValidateHomepageTest@3b6ddd1d]" started-at="2019-08-01T03:49:29Z" name="AddingContact" finished-at="2019-08-01T03:49:29Z" duration-ms="9" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
 at Util.BrowserFactory.startBrowser(BrowserFactory.java:22)
-at Test.ValidateHomepageTest.AddingContact(ValidateHomepageTest.java:13)
+at Test.ValidateHomepageTest.AddingContact(ValidateHomepageTest.java:14)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

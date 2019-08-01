@@ -12,14 +12,23 @@ public class Homepage {
 		this.driver= ldriver;
 	}
 	@FindBy(how=How.CLASS_NAME,using="custom-logo")
-	static
 	WebElement Logo;
 	
 
-
+public  void VerifyLoginpage() {
+	Logo.isDisplayed();
+}
 		
 
 
-	public static  void VarifyLoginpage() {
+	public  void VarifyLoginpage() {
 		Logo.isDisplayed();
-	}}
+	}
+
+
+
+
+
+
+
+	}
